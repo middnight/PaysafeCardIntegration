@@ -1,4 +1,6 @@
 # PaysafeCardIntegration
 
-Implented the card payment flow for paysafe. Please use appropriate credentials in paysafe.properties file before running it.
+Implented the card payment flow for paysafe. 
+Please use appropriate credentials in paysafe.properties file before running it.
 
+Prerequisite: Paysafe Java SDK
