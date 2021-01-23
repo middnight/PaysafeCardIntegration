@@ -14,6 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.internal.bytebuddy.matcher.ElementMatchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// these tests were written for TEST Environment, they must not be run in PROD env
 @SpringBootTest
 public class PaySafePaymentControllerTests {
 

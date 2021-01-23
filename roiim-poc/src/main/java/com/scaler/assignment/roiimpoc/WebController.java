@@ -10,9 +10,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import java.util.Optional;
 
+// web controller for the application
 @Controller
 public class WebController {
     @Autowired
@@ -73,7 +73,7 @@ public class WebController {
 
 
         }catch (Exception ex){
-            //TODO : implement better exception handling
+            //TODO : implement better exception handling for Payment Related errors
             model.addAttribute("errorMessage",ex.getMessage());
             model.addAttribute("stackTrace", ExceptionUtils.getStackTrace(ex));
             ex.printStackTrace();

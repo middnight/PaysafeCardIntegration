@@ -16,6 +16,8 @@ public class PaysafeApiClientProvider {
     @Autowired
     PaysafeConfigProvider paysafeConfigProvider;
 
+    // singleton pattern diluted implementation
+    // i don't see any reason to initialize new PaySafeAPiClient for each request
     public  PaysafeApiClient getApiClient() throws Exception{
         if(!isInstanceAvailable && paysafeApiClient==null){
             switch ( paysafeConfigProvider.getPaysafeEnvironment()){

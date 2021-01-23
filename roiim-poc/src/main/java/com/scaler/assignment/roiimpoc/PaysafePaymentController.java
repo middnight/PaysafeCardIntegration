@@ -5,8 +5,9 @@ import com.paysafe.cardpayments.Authorization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.Optional;
+
+//Controller to handle all paysafe operations
 @Controller
 public class PaysafePaymentController implements  PaymentController{
 

@@ -15,8 +15,6 @@ public class RoiimPocApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext applicationContext = SpringApplication.run(RoiimPocApplication.class, args);
 
-
-
 	}
 
 }
